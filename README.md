@@ -11,6 +11,12 @@
         - ![folder](/images/folder.png) environments
         - ![folder](/images/folder.png) models
         - ![folder](/images/folder.png) modules
+            - ![folder](/images/folder.png) add-challenge
+            - ![folder](/images/folder.png) challenge-card
+            - ![folder](/images/folder.png) dashboard
+            - ![folder](/images/folder.png) header
+            - ![folder](/images/folder.png) login
+            - ![folder](/images/folder.png) tags
         - ![folder](/images/folder.png) services
   - ![folder](/images/folder.png) images
   - ![folder](/images/folder.png) mock backend
