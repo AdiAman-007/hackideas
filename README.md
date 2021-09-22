@@ -29,3 +29,5 @@
 5. Mock backend runs on http://localhost:3000 and frontend app runs on http://localhost:4200
 6. Login into the application using credentails `emp1` or, `emp2` or, `emp3`
 
+### Flow Diagram
+![flow diagram](/images/flow.png)
