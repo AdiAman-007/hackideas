@@ -18,7 +18,7 @@ mock backend/node_modules/
 
 # package-lock
 frontend/package-lock.json
-backend/package-lock.json
+mock backend/package-lock.json
 
 
 
