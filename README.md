@@ -3,8 +3,8 @@
 ##### Backend - Node, Express
 
 ### Folder Structure
-![folder](/images/folder.png) hackideas
- ![folder](/images/folder.png) frontend
+- ![folder](/images/folder.png) hackideas
+ - ![folder](/images/folder.png) frontend
 
 ### Local Setup
 1. Clone the repository
