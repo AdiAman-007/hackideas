@@ -1,1 +1,3 @@
-# hackideas
+# HACK IDEAS
+
+## Local Setup
