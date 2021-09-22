@@ -1,0 +1,22 @@
+<div class="card-container" style="position: sticky; z-index: 100; opacity: 0.9;">
+    <div class="card-title" [class.title-backend]="cardData['title'].includes('Backend')"
+        [class.title-frontend]="cardData['title'].includes('Frontend')"
+        [class.title-ds]="cardData['title'].includes('Data Science')"
+        [class.title-ml]="cardData['title'].includes('Machine Learning')">
+        <p>{{cardData['title']}}</p>
+    </div>
+    <div class="card-body">
+        <p style="font-size: rem;">Ends on: {{cardData['endDate']}}</p>
+        <p>Tags: {{cardData['tags']}}</p>
+    </div>
+    <div class="card-footer" [class.footer-easy]="cardData['difficulty']=='Easy'"
+        [class.footer-medium]="cardData['difficulty']=='Medium'" [class.footer-hard]="cardData['difficulty']=='Hard'">
+        <div class="footer-text">
+            <p>{{cardData['difficulty']}}</p>
+        </div>
+        <div class="footer-icon" (click)="upvote(cardData)" *ngIf="render">
+            <i class="fa fa-thumbs-up" aria-hidden="true"
+                [class.upvoted]="upvotes.includes(cardData['id'].toString()) || upvotes.includes(cardData['id'])"></i>
+        </div>
+    </div>
+</div>

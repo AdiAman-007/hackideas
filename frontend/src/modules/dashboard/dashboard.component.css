@@ -1,0 +1,44 @@
+.page-header {
+    margin-top     : 50px;
+    background     : #2A2A2A;
+    height         : fit-content;
+    border-radius  : 5px;
+    padding        : 20px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: start;
+    max-width      : 300px;
+    font-size      : 1rem;
+}
+
+h4 {
+    margin: 0px;
+}
+
+.page-title {
+    margin: 0px;
+}
+
+.filters>span {
+    padding-top   : 10px;
+    padding-bottom: 10px;
+}
+
+.challenges-container {
+    flex           : 1;
+    margin-bottom  : 30px;
+    display        : flex;
+    flex           : 1;
+    flex-flow      : wrap;
+    justify-content: start;
+    overflow       : auto;
+    height         : max-content;
+    border-radius  : 5px;
+}
+
+.dashboard-container {
+    display        : flex;
+    flex-direction : row-reverse;
+    justify-content: space-between;
+    overflow       : auto;
+}

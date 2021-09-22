@@ -1,0 +1,5 @@
+<div class="tag-container">
+    <div class="tag" *ngFor="let items of tag" (click)="selectTag(items)" [class.selected-tag]="selectedTagsMap[items]">
+        {{items}}
+    </div>
+</div>

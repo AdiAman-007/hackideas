@@ -1,0 +1,12 @@
+.app-container {
+    display       : flex;
+    flex          : 1;
+    flex-direction: column;
+    background    : #111111;
+    color         : white;
+}
+
+app-header {
+    display   : flex;
+    max-height: 50px;
+}

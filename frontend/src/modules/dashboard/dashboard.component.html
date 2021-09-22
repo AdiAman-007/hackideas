@@ -1,0 +1,33 @@
+<div class="container dashboard-container">
+    <div class="page-header">
+        <div class="page-title">
+            <h4>Filters</h4>
+        </div><br>
+        <div class="filters">
+            <span style="display:inline-flex; line-height: 0.8rem;">
+                <p>Sort: </p>&nbsp;
+                <div style="display: flex; flex-wrap: wrap;">
+                    <span style="display: inline-flex; line-height: 2.5rem; padding-right: 10px;"
+                        *ngFor="let filter of sortFilters; let i = index">
+                        <input type="radio" name="sort" [value]="filter" [(ngModel)]="selectedSort"
+                            (change)="sortChallenges()" />&nbsp;<label>{{filter}}</label>
+                    </span>
+                </div>
+            </span>
+            <span style="display: inline-flex; line-height: 0px;">
+                <p>Tags: </p>&nbsp;
+                <app-tags [tag]="tag" (selectedEmitter)="selectTags($event)"></app-tags>
+            </span>
+        </div>
+    </div>
+    <div style="margin-top: 20px; flex: 1; display: flex;flex-direction: column; overflow: auto; margin-right: 50px;">
+        <div class="page-title" style="margin-left: 10px;margin-bottom: 10px;">
+            <h4 class="page-title">Live Challenges</h4>
+        </div>
+        <div class="challenges-container">
+            <div style="display: flex; overflow: auto; flex-wrap: wrap;">
+                <app-challenge-card [cardData]="items" *ngFor="let items of cardDataList"></app-challenge-card>
+            </div>
+        </div>
+    </div>
+</div>

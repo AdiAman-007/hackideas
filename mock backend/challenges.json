@@ -1,0 +1,175 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Challenge",
+        "tags": "frontend, feature",
+        "upvotes": 0,
+        "difficulty": "Easy",
+        "creationDate": "Tue, 21 Sep 2021 19:57:01 GMT",
+        "endDate": "01 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 2,
+        "title": "Backend Challenge",
+        "tags": "backend, feature",
+        "upvotes": 0,
+        "difficulty": "Medium",
+        "creationDate": "Tue, 21 Sep 2021 20:57:02 GMT",
+        "endDate": "02 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 3,
+        "title": "Machine Learning Challenge",
+        "tags": "machine learning, feature",
+        "upvotes": 0,
+        "difficulty": "Hard",
+        "creationDate": "Tue, 21 Sep 2021 20:57:03 GMT",
+        "endDate": "03 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 4,
+        "title": "Data Science Challenge",
+        "tags": "data science, feature",
+        "upvotes": 0,
+        "difficulty": "Hard",
+        "creationDate": "Tue, 21 Sep 2021 20:57:04 GMT",
+        "endDate": "04 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 5,
+        "title": "Frontend Challenge",
+        "tags": "frontend, feature",
+        "upvotes": 0,
+        "difficulty": "Easy",
+        "creationDate": "Tue, 21 Sep 2021 19:57:05 GMT",
+        "endDate": "05 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 6,
+        "title": "Backend Challenge",
+        "tags": "backend, feature",
+        "upvotes": 0,
+        "difficulty": "Medium",
+        "creationDate": "Tue, 21 Sep 2021 20:57:06 GMT",
+        "endDate": "06 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 7,
+        "title": "Machine Learning Challenge",
+        "tags": "machine learning, feature",
+        "upvotes": 0,
+        "difficulty": "Hard",
+        "creationDate": "Tue, 21 Sep 2021 20:57:07 GMT",
+        "endDate": "07 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 8,
+        "title": "Data Science Challenge",
+        "tags": "data science, feature",
+        "upvotes": 0,
+        "difficulty": "Hard",
+        "creationDate": "Tue, 21 Sep 2021 20:57:08 GMT",
+        "endDate": "08 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 9,
+        "title": "Frontend Challenge",
+        "tags": "frontend, feature",
+        "upvotes": 1,
+        "difficulty": "Easy",
+        "creationDate": "Tue, 21 Sep 2021 19:57:01 GMT",
+        "endDate": "01 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 10,
+        "title": "Backend Challenge",
+        "tags": "backend, feature",
+        "upvotes": 0,
+        "difficulty": "Medium",
+        "creationDate": "Tue, 21 Sep 2021 20:57:02 GMT",
+        "endDate": "02 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 11,
+        "title": "Machine Learning Challenge",
+        "tags": "machine learning, feature",
+        "upvotes": 0,
+        "difficulty": "Hard",
+        "creationDate": "Tue, 21 Sep 2021 20:57:03 GMT",
+        "endDate": "03 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 12,
+        "title": "Data Science Challenge",
+        "tags": "data science, feature",
+        "upvotes": 0,
+        "difficulty": "Hard",
+        "creationDate": "Tue, 21 Sep 2021 20:57:04 GMT",
+        "endDate": "04 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 13,
+        "title": "Frontend Challenge",
+        "tags": "frontend, feature",
+        "upvotes": 0,
+        "difficulty": "Easy",
+        "creationDate": "Tue, 21 Sep 2021 19:57:05 GMT",
+        "endDate": "05 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 14,
+        "title": "Backend Challenge",
+        "tags": "backend, feature",
+        "upvotes": 0,
+        "difficulty": "Medium",
+        "creationDate": "Tue, 21 Sep 2021 20:57:06 GMT",
+        "endDate": "06 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 15,
+        "title": "Machine Learning Challenge",
+        "tags": "machine learning, feature",
+        "upvotes": 0,
+        "difficulty": "Hard",
+        "creationDate": "Tue, 21 Sep 2021 20:57:07 GMT",
+        "endDate": "07 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 16,
+        "title": "Data Science Challenge",
+        "tags": "data science, feature",
+        "upvotes": 0,
+        "difficulty": "Hard",
+        "creationDate": "Tue, 21 Sep 2021 20:57:08 GMT",
+        "endDate": "08 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "id": 17,
+        "title": "Data Science Challenge",
+        "tags": "data science, feature",
+        "upvotes": 0,
+        "difficulty": "Hard",
+        "creationDate": "Tue, 21 Sep 2021 20:57:08 GMT",
+        "endDate": "09 Oct 2021 19:57:01 GMT"
+    },
+    {
+        "title": "Frontend Challenge",
+        "tags": "frontend",
+        "difficulty": "Easy",
+        "endDate": "2021-11-01T20:26",
+        "description": "This is a sample frontend challenge",
+        "id": 18,
+        "upvotes": 0,
+        "creationDate": "Wed, 22 Sep 2021 14:55:12 GMT"
+    },
+    {
+        "title": "Backend Challenge",
+        "tags": "backend",
+        "difficulty": "Medium",
+        "endDate": "2021-10-09T20:40",
+        "description": "This is a sample backend challenge",
+        "id": 19,
+        "upvotes": 0,
+        "creationDate": "Wed, 22 Sep 2021 15:10:11 GMT"
+    }
+]

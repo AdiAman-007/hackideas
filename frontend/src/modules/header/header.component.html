@@ -1,0 +1,15 @@
+<nav *ngIf="user">
+    <div class="container" style="flex: 1;">
+        <ul>
+            <li class="brand-name" [routerLink]="['/home']">{{appConfig['brandName']}}</li>
+        </ul>
+        <ul>
+            <li *ngFor="let links of appConfig['header']" [routerLink]="['/',links['path']]" (click)="selectNav(links)">
+                {{links['name']}}</li>
+        </ul>
+        <ul style="float: right; color: white;">
+            <li>Welcome, {{user | uppercase}}</li>
+            <li (click)="logout()">Log out&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></li>
+        </ul>
+    </div>
+</nav>

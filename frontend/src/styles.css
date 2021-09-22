@@ -1,0 +1,113 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height        : 100%;
+    width         : 100%;
+    display       : flex;
+    flex-direction: row;
+    margin        : 0px;
+    font-family   : 'Montserrat', sans-serif;
+    font-size     : 0.82rem;
+    overflow      : hidden;
+}
+
+body>app-root {
+    display : flex;
+    flex    : 1;
+    overflow: hidden;
+}
+
+body>app-root>div>*:not(router-outlet) {
+    display       : flex;
+    flex          : 1;
+    flex-direction: column;
+    overflow      : auto;
+}
+
+.display {
+    font-size: 5rem;
+}
+
+span>h4 {
+    margin     : 0px;
+    font-weight: 500;
+    font-size  : 1.3rem;
+    font-weight: 600;
+}
+
+input {
+    max-width    : 400px;
+    height       : 25px;
+    padding      : 7px;
+    background   : none;
+    border-radius: 5px;
+    flex         : 1;
+    color        : white;
+    border       : none;
+    outline      : none;
+    font-size    : 0.9rem;
+    font-weight  : 500;
+    font-family  : 'Montserrat', sans-serif;
+}
+
+.button-primary {
+    font-size  : 0.9rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border     : none;
+    outline    : none;
+    background : rgb(219, 219, 219);
+    padding    : 7px;
+    color      : black;
+    border     : none;
+    outline    : none;
+    font-weight: 600;
+}
+
+.button-primary:hover {
+    font-size  : 0.9rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border     : none;
+    outline    : none;
+    background : white;
+    padding    : 7px;
+    color      : #0088FF;
+    border     : none;
+    outline    : none;
+    font-weight: 600;
+}
+
+.container {
+    margin-left : 60px;
+    margin-right: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background   : #2A2A2A;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2A2A2A;
+}
+
+.page-title {
+    font-size: 1.3rem !important;
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        margin-left : 20px;
+        margin-right: 20px;
+    }
+}

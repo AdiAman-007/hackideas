@@ -1,0 +1,14 @@
+{
+    "brandName": "HACK IDEAS",
+    "header": [
+        {
+            "name":"Home",
+            "path":"home"
+        },
+        {
+            "name":"Add Challenge",
+            "path":"addChallenge"
+        }
+    ],
+    "footer": "copyright"
+}

@@ -1,0 +1,68 @@
+<div class="container add-container">
+    <div style="margin-left: 10px; margin-bottom: 20px; display: flex; flex-direction: column;">
+        <div class="title">
+            <span style="display: inline-flex;">
+                <h4>New Challenge</h4>
+                <button class="save" (click)="submit()">Save</button>
+            </span>
+        </div><br><br>
+        <div class="content">
+            <form [formGroup]="challengeForm" class="content">
+                <div style="display: flex; flex-direction: column; width: 400px; padding: 10px;">
+                    <div class="control-container">
+                        <div class="label">
+                            <label>Title</label>
+                        </div>
+                        <div class="control">
+                            <input type="text" formControlName="title">
+                        </div>
+                    </div>
+                    <div class="control-container">
+                        <div class="label">
+                            <label>Tags: {{savedTags.join(' , ')}}</label>
+                        </div>
+                        <div class="control">
+                            <select formControlName="tags">
+                                <option value={{tag}} *ngFor="let tag of tagsList">{{tag}}</option>
+                            </select>
+                            <button class="save" (click)="addTags()" style="max-width: 60px;">Add</button>
+                        </div>
+                    </div>
+                    <div class="control-container">
+                        <div class="label">
+                            <label>Level</label>
+                        </div>
+                        <div class="control">
+                            <select formControlName="difficulty">
+                                <option value={{level}} *ngFor="let level of levelsList">{{level}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="control-container">
+                        <div class="label">
+                            <label>End date</label>
+                        </div>
+                        <div class="control">
+                            <input type="datetime-local" formControlName="endDate">
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: column; flex: 1; padding: 10px;">
+                    <div class="control-container">
+                        <div class="label">
+                            <label style="padding-bottom: 5px;">Description</label>
+                        </div>
+                        <div class="control">
+                            <textarea style="min-height: 278px;" formControlName="description"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="content" style="flex-direction: row-reverse;">
+            <div style="padding-right: 8px;">
+                <button class="save" (click)="submit()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+.tag {
+    background-color: rgb(20, 20, 20);
+    border-radius   : 10px;
+    line-height     : 0.9rem;
+    padding-left    : 10px;
+    padding-right   : 10px;
+    padding-top     : 5px;
+    padding-bottom  : 5px;
+    display         : flex;
+    font-size       : 0.7rem;
+    margin-left     : 5px;
+    font-weight     : 300;
+    cursor          : pointer;
+    border          : 3px solid #2A2A2A;
+}
+
+.tag:hover {
+    background-color: rgb(151, 151, 151);
+    border-radius   : 10px;
+    line-height     : 0.9rem;
+    padding-left    : 10px;
+    padding-right   : 10px;
+    padding-top     : 5px;
+    padding-bottom  : 5px;
+    display         : flex;
+    font-size       : 0.7rem;
+    margin-left     : 5px;
+    font-weight     : 600;
+    color           : rgb(0, 0, 0);
+    cursor          : pointer;
+}
+
+.selected-tag {
+    background-color: rgb(151, 151, 151);
+    border-radius   : 10px;
+    line-height     : 0.9rem;
+    padding-left    : 10px;
+    padding-right   : 10px;
+    padding-top     : 5px;
+    padding-bottom  : 5px;
+    display         : flex;
+    font-size       : 0.7rem;
+    margin-left     : 5px;
+    font-weight     : 600;
+    color           : rgb(0, 0, 0);
+    cursor          : pointer;
+}
+
+.tag-container {
+    display        : inline-flex;
+    flex-wrap      : wrap;
+    justify-content: start;
+}

@@ -1,0 +1,7 @@
+{
+    "/app-config": {
+        "target": "http://localhost:3000/app-config",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

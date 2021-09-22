@@ -1,0 +1,131 @@
+.card-container {
+    height          : 250px;
+    width           : 250px;
+    background-color: #313131;
+    border-radius   : 5px;
+    margin          : 10px;
+}
+
+.card-container:hover {
+    height          : 250px;
+    width           : 250px;
+    background-color: black;
+    border-radius   : 5px;
+    margin          : 10px;
+    color           : white;
+    mix-blend-mode  : screen;
+}
+
+.card-title {
+    height                 : 140px;
+    width                  : 230;
+    background-color       : #606FD5;
+    border-top-left-radius : 5px;
+    border-top-right-radius: 5px;
+    color                  : white;
+    text-align             : left;
+    font-size              : 1.7rem;
+    line-height            : 3rem;
+    overflow               : hidden;
+    font-weight            : 600;
+    word-wrap              : break-word;
+}
+
+.title-backend {
+    background-color: #606FD5;
+}
+
+.title-frontend {
+    background-color: #776FA5;
+}
+
+.title-ds {
+    background-color: #649D99;
+}
+
+.title-ml {
+    background-color: #9B649D;
+}
+
+.card-title>p {
+    margin       : 0;
+    text-overflow: ellipsis;
+    padding      : 15px;
+    overflow     : hidden;
+}
+
+.card-footer {
+    height                    : 40px;
+    background-color          : wheat;
+    border-bottom-left-radius : 5px;
+    border-bottom-right-radius: 5px;
+    padding-left              : 15px;
+    padding-right             : 15px;
+    vertical-align            : middle;
+    color                     : white;
+}
+
+.card-footer>.footer-text {
+    float    : left;
+    height   : 100%;
+    font-size: 0.9rem;
+}
+
+.card-footer>.footer-icon {
+    float          : right;
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+    height         : 100%;
+    vertical-align : middle;
+}
+
+.card-body {
+    height         : 70px;
+    width          : 100%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    padding-bottom : 15px;
+    padding-top    : 15px;
+}
+
+.card-body>p {
+    padding-left  : 15px;
+    padding-right : 15px;
+    text-overflow : ellipsis;
+    overflow      : hidden;
+    margin        : 0;
+    font-size     : 0.82rem;
+    vertical-align: middle;
+}
+
+.footer-easy {
+    background-color: #5FAA62;
+}
+
+.footer-hard {
+    background-color: #DC683C;
+}
+
+.footer-medium {
+    background-color: #ECAF53;
+}
+
+.fa-thumbs-up {
+    font-size     : 1.3rem;
+    /* line-height: 2.6rem; */
+    color         : #313131;
+}
+
+.fa-thumbs-up:hover {
+    font-size     : 1.3rem;
+    /* line-height: 2.6rem; */
+    color         : white;
+}
+
+.upvoted {
+    font-size     : 1.3rem;
+    /* line-height: 2.6rem; */
+    color         : white;
+}
