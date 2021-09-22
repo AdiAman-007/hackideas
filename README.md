@@ -3,7 +3,7 @@
 ##### Backend - Node, Express
 
 ### Folder Structure
--![folder](/assets/images/tux.png) hackides
+-![folder](/images/folder.png) hackides
 
 ### Local Setup
 1. Clone the repository
