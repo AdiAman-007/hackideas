@@ -11,7 +11,7 @@
         - ![folder](/images/folder.png) environments
         - ![folder](/images/folder.png) models
         - ![folder](/images/folder.png) modules
-        - ![folder](/images/folder.png) service
+        - ![folder](/images/folder.png) services
   - ![folder](/images/folder.png) images
   - ![folder](/images/folder.png) mock backend
 
