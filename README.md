@@ -5,7 +5,13 @@
 ### Folder Structure
 - ![folder](/images/folder.png) hackideas
   - ![folder](/images/folder.png) frontend
-  -   - ![folder](/images/folder.png) src
+     - ![folder](/images/folder.png) src
+        - ![folder](/images/folder.png) app
+        - ![folder](/images/folder.png) assets
+        - ![folder](/images/folder.png) environments
+        - ![folder](/images/folder.png) models
+        - ![folder](/images/folder.png) modules
+        - ![folder](/images/folder.png) service
   - ![folder](/images/folder.png) images
   - ![folder](/images/folder.png) mock backend
 
