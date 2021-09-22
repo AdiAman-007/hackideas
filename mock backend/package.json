@@ -1,0 +1,16 @@
+{
+  "name": "mock-backend",
+  "version": "1.0.0",
+  "description": "mock-bacend for hackideas",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Aman Aditya",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
