@@ -5,6 +5,8 @@
 ### Folder Structure
 - ![folder](/images/folder.png) hackideas
   - ![folder](/images/folder.png) frontend
+  - ![folder](/images/folder.png) images
+  - ![folder](/images/folder.png) mock backend
 
 ### Local Setup
 1. Clone the repository
