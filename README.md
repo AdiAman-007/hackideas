@@ -2,6 +2,9 @@
 ##### Frontend - Angular application
 ##### Backend - Node, Express
 
+### Folder Structure
+-![folder](/assets/images/tux.png) hackides
+
 ### Local Setup
 1. Clone the repository
 2. Install packages - Run command `npm i` inside frontend and mock backend directories
