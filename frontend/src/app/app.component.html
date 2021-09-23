@@ -1,7 +1,8 @@
 <div class="app-container">
-    <div style="padding: 20px;flex: 0; overflow: hidden;" *ngIf="showHamburger" (click)="closeNav()">
-        <i class="fas fa-bars"></i>
+    <div class="hamburger" *ngIf="showHamburger" (click)="closeNav()">
+        <span><i class="fas fa-bars"></i><span *ngIf="openhamburger" style="color: #0088FF; font-weight: 600;">HACK IDEAS</span></span>
     </div>
-    <app-header class="header" *ngIf="!hamburger"></app-header>
+    <app-header class="header" *ngIf="!openhamburger" (click)="closeNav()"></app-header>
+    <app-header class="header" *ngIf="!showHamburger"></app-header>
     <router-outlet></router-outlet>
 </div>

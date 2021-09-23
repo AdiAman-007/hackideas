@@ -1,6 +1,7 @@
 .app-container {
     display       : flex;
-    flex          : 1;
+    height: 100%;
+    width: 100%;
     flex-direction: column;
     background    : #111111;
     color         : white;
@@ -12,7 +13,15 @@
     flex      : none;
     overflow  : hidden;
 }
-
+.hamburger {
+    padding : 20px;
+    flex    : 0;
+    overflow: hidden;
+    font-size: 1.2rem;
+}
+.fa-bars{
+    margin-right: 15px;
+}
 @media only screen and (max-width: 768px) {
     .header {
         display       : flex;
@@ -21,5 +30,15 @@
         flex          : none;
         max-height    : 100vh;
         flex          : 1;
+    }
+
+    .hamburger {
+        padding : 20px;
+        flex    : 0;
+        overflow: hidden;
+        font-size: 1.2rem;
+    }
+    .fa-bars{
+        margin-right: 15px;
     }
 }

@@ -17,7 +17,7 @@
     width  : 100%;
 }
 
-input {
+/* input {
     width        : auto;
     height       : 33px;
     padding      : 7px;
@@ -29,8 +29,8 @@ input {
     font-size    : 0.9rem;
     font-weight  : 500;
     font-family  : 'Montserrat', sans-serif;
-    border       : 1px solid white;
-}
+
+} */
 
 select {
     background        : none;
@@ -68,8 +68,9 @@ option {
     display        : flex;
     flex-direction : column;
     justify-content: space-between;
-    height         : 56px;
+    height         : 80px;
     padding-bottom : 30px;
+    flex: 1;
 }
 
 .label {
@@ -121,8 +122,8 @@ option {
 .form-container {
     display       : flex;
     flex-direction: column;
-    width         : 400px;
     padding       : 10px;
+    min-width: 400px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -152,5 +153,9 @@ option {
         display       : flex;
         flex-direction: column;
         padding       : 10px;
+        flex: 1;
+    }
+    .control-container{
+        flex: 1;
     }
 }

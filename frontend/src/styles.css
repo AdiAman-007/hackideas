@@ -18,7 +18,21 @@ body>app-root {
     overflow: hidden;
 }
 
-body>app-root>div>*:not(router-outlet) {
+body>app-root>div>app-header {
+    display       : flex;
+    flex          : 1;
+    flex-direction: column;
+    overflow      : auto;
+}
+
+body>app-root>div>app-dashboard {
+    display       : flex;
+    flex          : 1;
+    flex-direction: column;
+    overflow      : auto;
+}
+
+body>app-root>div>app-add-challenge {
     display       : flex;
     flex          : 1;
     flex-direction: column;
@@ -37,8 +51,8 @@ span>h4 {
 }
 
 input {
-    max-width    : 400px;
-    height       : 25px;
+    max-width    : 100%;
+    max-height   : 42px;
     padding      : 7px;
     background   : none;
     border-radius: 5px;
@@ -46,9 +60,9 @@ input {
     color        : white;
     border       : none;
     outline      : none;
-    font-size    : 0.9rem;
     font-weight  : 500;
     font-family  : 'Montserrat', sans-serif;
+    border       : 1px solid white;
 }
 
 .button-primary {
@@ -109,5 +123,37 @@ input {
     .container {
         margin-left : 20px;
         margin-right: 20px;
+    }
+
+    .display {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .display {
+        font-size: 3rem;
+    }
+
+    body>app-root>div>app-header {
+        display       : flex !important;
+        flex-direction: row !important;
+        overflow      : auto !important;
+        flex          : none !important;
+        min-height    : 100vh !important;
+    }
+
+    body>app-root>div>app-dashboard {
+        display       : flex !important;
+        flex-direction: column !important;
+        overflow      : auto !important;
+        flex          : 1 !important;
+    }
+
+    body>app-root>div>app-add-challenge {
+        display       : flex !important;
+        flex-direction: column !important;
+        overflow      : auto !important;
+        flex          : 1 !important;
     }
 }

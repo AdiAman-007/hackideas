@@ -17,7 +17,7 @@ export class DashboardComponent implements OnInit {
   user: any = {};
   selectedSort: String = "creation date"
   sortFilters: string[] = ['creation date', 'upvotes', 'end date'];
-
+  showFilters: boolean = true
   constructor(private appService: AppService) {
     this.appService.getTags().subscribe((res) => {
       this.tag = res['tags']
@@ -26,7 +26,7 @@ export class DashboardComponent implements OnInit {
       this.cardDataList = res
       this.tempList = res
     })
-   }
+  }
 
   ngOnInit(): void {
     this.appService.setUser(localStorage.getItem('user'))
@@ -81,4 +81,7 @@ export class DashboardComponent implements OnInit {
     }
   }
 
+  hideFilters() {
+    this.showFilters = !this.showFilters
+  }
 }

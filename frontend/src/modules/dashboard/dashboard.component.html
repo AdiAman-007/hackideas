@@ -1,7 +1,10 @@
 <div class="container dashboard-container">
-    <div class="page-header">
+    <div class="page-header" *ngIf="showFilters">
         <div class="page-title">
-            <h4>Filters</h4>
+            <span style="display: inline-flex; justify-content: space-between; width: 100%;">
+                <h4 *ngIf="showFilters" style="float: left;">Filters</h4>
+                <div (click)="hideFilters()"><i class="fas fa-times" style="float: right;"></i></div>
+            </span>
         </div><br>
         <div class="filters">
             <span style="display:inline-flex; line-height: 0.8rem;">
@@ -21,8 +24,8 @@
         </div>
     </div>
     <div class="content">
-        <div class="page-title" style="margin-left: 10px;margin-bottom: 10px;">
-            <h4 class="page-title">Live Challenges</h4>
+        <div class="page-title" style="margin-left: 10px;margin-bottom: 10px;" >
+            <h4 class="page-title">Live Challenges</h4><div (click)="hideFilters()" *ngIf="!showFilters"><i class="fas fa-filter"></i></div>
         </div>
         <div class="challenges-container">
             <div class="challenges-subc">

@@ -11,6 +11,7 @@ const backendUrl = "https://us-central1-hackideas-b8809.cloudfunctions.net/app/"
 export class AppService {
   user = new Subject()
   uservotes = new Subject()
+
   setUser(value: any) {
     this.user.next(value)
   }
@@ -24,7 +25,9 @@ export class AppService {
     return this.uservotes.asObservable()
   }
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { 
+
+  }
 
   getUsers(): Observable<any> {
     return this.http.get(backendUrl + "users");

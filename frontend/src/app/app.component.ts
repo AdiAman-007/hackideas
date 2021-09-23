@@ -10,12 +10,10 @@ import { AppService } from 'src/services/app.service';
 export class AppComponent {
   title = 'hackideas';
   showHamburger: boolean = false
-  hamburger: boolean = false
+  openhamburger: boolean = false
+  desktopHeader: boolean = true
   constructor(private _router: Router, private appService: AppService) {
-    if (window.innerWidth < 700) {
-      this.showHamburger = true
-    }
-    else this.showHamburger = false
+    this.detectClientWidth()
   }
 
   ngOnInit() {
@@ -24,7 +22,18 @@ export class AppComponent {
   ngOnDestroy() {
   }
 
+  detectClientWidth(){
+    if (window.innerWidth < 800) {
+      this.showHamburger = true
+      this.openhamburger = true
+    }
+    else {
+      this.showHamburger = false
+      this.openhamburger = true
+    }
+  }
+
   closeNav() {
-    this.hamburger = !this.hamburger
+    this.openhamburger = !this.openhamburger
   }
 }
