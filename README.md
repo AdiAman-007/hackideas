@@ -33,7 +33,7 @@ https://hackideas-b8809.firebaseapp.com/login
 
 ### Build Application
 1. Build frontend - Run command `npm build` inside frontend directory
-2. Copy `frontend/dist` to mock `backbend/dist`
+2. Copy `frontend/dist` to `mock backbend/dist`
 
 ### Run Local Server
 1. Clone the repository
