@@ -1,4 +1,5 @@
-# HACK IDEAS - [https://hackideas-b8809.firebaseapp.com/login]
+# HACK IDEAS 
+[https://hackideas-b8809.firebaseapp.com/login]
 ##### Frontend - Angular application
 ##### Backend - Node, Express
 
