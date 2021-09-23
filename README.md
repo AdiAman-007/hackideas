@@ -32,7 +32,7 @@ https://hackideas-b8809.web.app
 6. Login into the application using credentails `emp1` or, `emp2` or, `emp3`
 
 ### Build Application
-1. Build frontend - Run command `npm build` inside frontend directory
+1. Build frontend - Run command `npm build` or `ng build` inside frontend directory
 2. Copy `frontend/dist` to `mock backbend/dist`
 
 ### Run Local Server
