@@ -46,7 +46,7 @@ Hosted Aplication ( login with credential `emp1` or `emp2` or `emp3` )- https://
 ### Flow Diagram - frontend
 ![flow diagram](/images/flow.png)
 #
-### Lighthouse reports
+### Lighthouse Reports
 
 Login
 
