@@ -46,6 +46,7 @@ https://hackideas-b8809.firebaseapp.com
 ![flow diagram](/images/flow.png)
 
 ### Lighthouse reports
+
 Login
 ![login](/images/lighthouse-login.png)
 
