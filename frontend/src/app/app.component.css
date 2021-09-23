@@ -6,7 +6,20 @@
     color         : white;
 }
 
-app-header {
+.header {
     display   : flex;
     max-height: 50px;
+    flex      : none;
+    overflow  : hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        display       : flex;
+        flex-direction: column;
+        overflow      : hidden;
+        flex          : none;
+        max-height    : 100vh;
+        flex          : 1;
+    }
 }

@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { RouteConfigLoadEnd, Router } from '@angular/router';
 import { AppConfig } from 'src/models/app-config.model';
 import { AppService } from 'src/services/app.service';
+import { ElementRef, ViewChild } from '@angular/core';
+import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-header',

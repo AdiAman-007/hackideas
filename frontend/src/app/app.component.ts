@@ -9,13 +9,22 @@ import { AppService } from 'src/services/app.service';
 })
 export class AppComponent {
   title = 'hackideas';
+  showHamburger: boolean = false
+  hamburger: boolean = false
   constructor(private _router: Router, private appService: AppService) {
+    if (window.innerWidth < 700) {
+      this.showHamburger = true
+    }
+    else this.showHamburger = false
   }
 
   ngOnInit() {
   }
 
   ngOnDestroy() {
+  }
 
+  closeNav() {
+    this.hamburger = !this.hamburger
   }
 }

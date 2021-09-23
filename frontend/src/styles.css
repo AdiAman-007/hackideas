@@ -105,7 +105,7 @@ input {
     font-size: 1.3rem !important;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
     .container {
         margin-left : 20px;
         margin-right: 20px;

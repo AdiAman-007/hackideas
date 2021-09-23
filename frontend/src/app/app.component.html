@@ -1,4 +1,7 @@
 <div class="app-container">
-    <app-header></app-header>
+    <div style="padding: 20px;flex: 0; overflow: hidden;" *ngIf="showHamburger" (click)="closeNav()">
+        <i class="fas fa-bars"></i>
+    </div>
+    <app-header class="header" *ngIf="!hamburger"></app-header>
     <router-outlet></router-outlet>
 </div>

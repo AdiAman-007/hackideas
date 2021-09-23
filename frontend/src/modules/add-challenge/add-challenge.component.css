@@ -110,13 +110,19 @@ option {
     color     : black;
 }
 
+.add-challenge {
+    margin-left   : 10px;
+    margin-bottom : 20px;
+    display       : flex;
+    flex-direction: column;
+    flex          : 1;
+}
+
 @media only screen and (max-width: 600px) {
     .content {
         display       : flex;
         flex-direction: column;
-        width         : 100%;
-        zoom          : 0.7;
-        width         : 400px;
+        flex          : 1;
     }
 
     .add-container {
@@ -125,7 +131,14 @@ option {
         justify-content: space-between;
         flex           : 1;
         overflow       : auto;
-        margin-top     : 0px;
-        margin-right   : 0px;
+        margin         : 20px;
+        zoom           : 0.8;
+    }
+
+    .add-challenge {
+        margin        : 0px;
+        display       : flex;
+        flex-direction: column;
+        flex          : 1;
     }
 }
