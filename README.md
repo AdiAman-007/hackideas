@@ -1,9 +1,9 @@
 # HACK IDEAS 
 Hosted Aplication ( login with credential `emp1` or `emp2` or `emp3` )- https://hackideas-b8809.web.app
 
-##### Frontend - Angular application
-##### Backend - Node, Express
-##### Deployment - Firebase
+#### Frontend - Angular application
+#### Backend - Node, Express
+#### Deployment - Firebase
 
 ### Folder Structure
 - ![folder](/images/folder.png) hackideas
