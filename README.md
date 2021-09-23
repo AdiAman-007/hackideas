@@ -26,8 +26,8 @@ https://hackideas-b8809.firebaseapp.com/login
 ### Local Dev Setup
 1. Clone the repository
 2. Install packages - Run command `npm i` inside frontend and mock backend directories
-3. Run mock backend - Run command `npm start` inside mock backend folder
-4. Run frontend app - Run command `npm start` inside frontend folder
+3. Run mock backend - Run command `npm start` inside mock backend directory
+4. Run frontend app - Run command `npm start` inside frontend directory
 5. Mock backend runs on http://localhost:3000 and frontend app runs on http://localhost:4200
 6. Login into the application using credentails `emp1` or, `emp2` or, `emp3`
 
@@ -38,7 +38,7 @@ https://hackideas-b8809.firebaseapp.com/login
 ### Run Local Server
 1. Clone the repository
 2. Install packages - Run command `npm i` inside backend directory
-3. Run local server - Run command `npm start` inside mock backend folder
+3. Run local server - Run command `npm start` inside mock backend directory
 4. Access the application from http://localhost:3000
 5. Login into the application using credentails `emp1` or, `emp2` or, `emp3`
 
