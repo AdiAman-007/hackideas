@@ -118,6 +118,13 @@ option {
     flex          : 1;
 }
 
+.form-container {
+    display       : flex;
+    flex-direction: column;
+    width         : 400px;
+    padding       : 10px;
+}
+
 @media only screen and (max-width: 600px) {
     .content {
         display       : flex;
@@ -140,5 +147,10 @@ option {
         display       : flex;
         flex-direction: column;
         flex          : 1;
+    }
+    .form-container {
+        display       : flex;
+        flex-direction: column;
+        padding       : 10px;
     }
 }
