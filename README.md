@@ -45,7 +45,19 @@ https://hackideas-b8809.firebaseapp.com
 ### Flow Diagram - frontend
 ![flow diagram](/images/flow.png)
 
+### Lighthouse reports
+Login
+![login](/images/lighthouse-login.png)
+
+Home
+![home](/images/lighthouse-home.png)
+
+Add challenge
+![add challenge](/images/lighthouse-add.png)
+
+
 ### Application Screenshots
+
 Login
 ![login](/images/login.png)
 
