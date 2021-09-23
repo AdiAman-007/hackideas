@@ -31,3 +31,14 @@
 
 ### Flow Diagram - frontend
 ![flow diagram](/images/flow.png)
+
+### Application Screenshots
+Login
+![login](/images/login.png)
+
+Home
+![home](/images/home.png)
+
+Add challenge
+![add challenge](/images/add.png)
+
