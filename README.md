@@ -23,7 +23,7 @@ Hosted Aplication ( login with credential `emp1` or `emp2` or `emp3` )- https://
         - ![folder](/images/folder.png) services
   - ![folder](/images/folder.png) images
   - ![folder](/images/folder.png) mock backend
-
+#
 ### Local Dev Setup
 1. Clone the repository
 2. Install packages - Run command `npm i` inside frontend and mock backend directories
@@ -31,21 +31,21 @@ Hosted Aplication ( login with credential `emp1` or `emp2` or `emp3` )- https://
 4. Run frontend app - Run command `npm start` inside frontend directory
 5. Mock backend runs on http://localhost:3000 and frontend app runs on http://localhost:4200
 6. Login into the application using credentails `emp1` or, `emp2` or, `emp3`
-
+#
 ### Build Application
 1. Build frontend - Run command `npm build` or `ng build` inside frontend directory
 2. Copy `frontend/dist` to `mock backbend/dist`
-
+#
 ### Run Local Server
 1. Clone the repository
 2. Install packages - Run command `npm i` inside backend directory
 3. Run local server - Run command `npm start` inside mock backend directory
 4. Access the application from http://localhost:3000
 5. Login into the application using credentails `emp1` or, `emp2` or, `emp3`
-
+#
 ### Flow Diagram - frontend
 ![flow diagram](/images/flow.png)
-
+#
 ### Lighthouse reports
 
 Login
@@ -59,8 +59,7 @@ Home
 Add challenge
 
 ![lighthouse-add challenge](/images/lighthouse-add.png)
-
-
+#
 ### Application Screenshots
 
 Login
