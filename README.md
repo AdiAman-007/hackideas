@@ -2,6 +2,7 @@
 https://hackideas-b8809.firebaseapp.com/login
 ##### Frontend - Angular application
 ##### Backend - Node, Express
+##### Deployment - Firebase
 
 ### Folder Structure
 - ![folder](/images/folder.png) hackideas
