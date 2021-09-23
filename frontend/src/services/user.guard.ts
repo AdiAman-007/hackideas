@@ -14,7 +14,7 @@ export class UserGuard implements CanActivate {
       return true
     }
     else {
-      alert('User not logged in')
+      // alert('User not logged in')
       this.router.navigate(['login'])
       return false;
     }

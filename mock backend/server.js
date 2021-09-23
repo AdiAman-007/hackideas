@@ -10,6 +10,19 @@ app.use(function (req, res, next) {
   next();
 });
 const port = 3000
+app.use(express.static(process.cwd() + "/dist/hackideas/"));
+app.get('/', (req, res) => {
+    res.sendFile(process.cwd() + "/dist/hackideas/index.html")
+});
+app.get('/login', (req, res) => {
+  res.sendFile(process.cwd() + "/dist/hackideas/index.html")
+});
+app.get('/home', (req, res) => {
+  res.sendFile(process.cwd() + "/dist/hackideas/index.html")
+});
+app.get('/addChallenge', (req, res) => {
+  res.sendFile(process.cwd() + "/dist/hackideas/index.html")
+});
 
 app.get('/users', (req, res) => {
   console.log("GET--users")
@@ -85,13 +98,15 @@ app.post('/upvote', (req, res) => {
 app.post('/addchallenge',(req,res)=>{
   console.log("POST--addchallenge")
   fs.readFile('./challenges.json', (err, data) => {
-    if (err) res.send(err);
-    let challenges = Array.from(JSON.parse(data))
-    let formData = req.body
-    let payload = [...challenges,formData]
-    fs.writeFile('./challenges.json', JSON.stringify(payload) ,(err, data)=>{
-      if(err) res.send(err)
-    })
+      if (err) res.json(err);
+      let challenges = Array.from(JSON.parse(data))
+      let formData = req.body
+      let payload = [...challenges, formData]
+      fs.writeFile('./challenges.json', JSON.stringify(payload), (err, data) => {
+          if (err) res.json(err)
+          res.end()
+      })
+      res.end()
   })
 })
 

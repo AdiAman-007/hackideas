@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, throwError, pipe } from 'rxjs';
 import { catchError, retry, map } from 'rxjs/operators';
 import { Subject } from 'rxjs';
-const backendUrl = "http://localhost:3000/";
+const backendUrl = "https://us-central1-hackideas-b8809.cloudfunctions.net/app/";
 
 @Injectable({
   providedIn: 'root'

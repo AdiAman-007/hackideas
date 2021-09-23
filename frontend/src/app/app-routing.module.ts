@@ -5,12 +5,12 @@ import { UserGuard } from 'src/services/user.guard';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/login',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   {
     path: 'login',
-    loadChildren: () => import('../modules/login/login.module').then(m => m.LoginModule),
+    loadChildren: () => import('../modules/login/login.module').then(m => m.LoginModule)
   },
   {
     path: 'home',
