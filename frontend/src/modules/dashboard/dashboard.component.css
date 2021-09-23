@@ -61,7 +61,7 @@ h4 {
 @media only screen and (max-width: 768px) {
     .dashboard-container {
         display           : flex;
-        flex-flow         : wrap;
+        flex-direction    : column;
         /* justify-content: space-between; */
         overflow          : auto;
     }
@@ -84,6 +84,7 @@ h4 {
         flex-wrap      : wrap;
         justify-content: center;
     }
+
     .content {
         margin-top    : 20px;
         flex          : 1;

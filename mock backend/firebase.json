@@ -5,6 +5,7 @@
     ]
   },
   "hosting": {
+    "public": "functions/dist/hackideas",
     "rewrites": [
       {
         "source": "**",
