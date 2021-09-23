@@ -48,13 +48,13 @@ https://hackideas-b8809.firebaseapp.com
 ### Lighthouse reports
 
 Login
-![login](/images/lighthouse-login.png)
+![lighthouse-login](/images/lighthouse-login.png)
 
 Home
-![home](/images/lighthouse-home.png)
+![lighthouse-home](/images/lighthouse-home.png)
 
 Add challenge
-![add challenge](/images/lighthouse-add.png)
+![lighthouse-add challenge](/images/lighthouse-add.png)
 
 
 ### Application Screenshots
