@@ -32,4 +32,5 @@ describe('ChallengeCardComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });

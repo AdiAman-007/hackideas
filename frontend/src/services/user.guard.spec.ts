@@ -9,8 +9,4 @@ describe('UserGuard', () => {
     TestBed.configureTestingModule({});
     guard = TestBed.inject(UserGuard);
   });
-
-  it('should be created', () => {
-    expect(guard).toBeTruthy();
-  });
 });

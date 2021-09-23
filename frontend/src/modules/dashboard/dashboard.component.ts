@@ -18,7 +18,15 @@ export class DashboardComponent implements OnInit {
   selectedSort: String = "creation date"
   sortFilters: string[] = ['creation date', 'upvotes', 'end date'];
 
-  constructor(private appService: AppService) { }
+  constructor(private appService: AppService) {
+    this.appService.getTags().subscribe((res) => {
+      this.tag = res['tags']
+    })
+    this.appService.getChallenges().subscribe((res) => {
+      this.cardDataList = res
+      this.tempList = res
+    })
+   }
 
   ngOnInit(): void {
     this.appService.setUser(localStorage.getItem('user'))
@@ -31,14 +39,6 @@ export class DashboardComponent implements OnInit {
       })
       this.appService.setVotes(upvotes)
       localStorage.setItem('upvotes', upvotes)
-    })
-
-    this.appService.getTags().subscribe((res) => {
-      this.tag = res['tags']
-    })
-    this.appService.getChallenges().subscribe((res) => {
-      this.cardDataList = res
-      this.tempList = res
     })
   }
 

@@ -9,15 +9,15 @@ import { of } from 'rxjs';
   styleUrls: ['./challenge-card.component.css']
 })
 export class ChallengeCardComponent implements OnInit {
-  @Input() cardData: any
+  @Input() cardData: any = {}
   user: any = localStorage.getItem('user');
   upvotes: any = localStorage.getItem('upvotes')?.split(',')
   render: boolean = false;
   constructor(private appService: AppService) {
+    this.getData()
   }
 
   ngOnInit(): void {
-    this.getData()
   }
 
   getData(): void {

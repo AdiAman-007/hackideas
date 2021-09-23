@@ -32,4 +32,19 @@ describe('LoginComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should contain "Hack Ideas title"', () => {
+    const titleElement: HTMLElement = fixture.nativeElement;
+    expect(titleElement.textContent).toContain('HACK IDEAS');
+  });
+
+  it('should contain "input box"', () => {
+    const titleElement: HTMLElement = fixture.nativeElement;
+    expect(titleElement.getElementsByTagName('input'));
+  });
+
+  it('should contain "login button"', () => {
+    const titleElement: HTMLElement = fixture.nativeElement;
+    expect(titleElement.getElementsByTagName('button'));
+  });
 });
